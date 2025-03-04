@@ -20,19 +20,17 @@ Prediction Methods
 Correlation Analysis for (Method-1 and Method-2)
 Examines the correlation matrix of selected technical indicators.
 
-Method-1
+#Method-1
 Using weighted indicators, combine predictions from Moving Average, RSI, Bollinger Bands, and MACD.
 
-Method-2
+#Method-2
 Normalizes and combines indicators (MA, RSI, Rolling Mean, MACD_Line) with weighted values, then compares with upper and lower thresholds for prediction.
 
-Method-3
+#Method-3
 Indicators used: Moving Average, Relative Strength Index, On Balance Volume, Average Directional Index Using the closing prices from the previous 5 days and correlation, we determine the weights using the equation of least square optimisation.
 
 Accuracy Calculation
 Evaluates the accuracy of predictions from Method-1, Method-2, and Method-3.
 
-Results
+#Results
 The final predictions from all methods are saved in a CSV file named Prediction.csv. The predictions are denoted as 'L' (Long), 'S' (Short), and 'X' (Not considered in the first 30 data points due to moving averages).
-
-MIT License
